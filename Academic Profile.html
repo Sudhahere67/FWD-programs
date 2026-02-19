@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Student Acedemic Profile</title>
+        <style>
+            body{
+                background-color: plum;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                margin:0;
+                padding:0;
+            }
+            .container{
+            width: 75%;
+            margin: 40px auto;
+            background: navajowhite;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            }
+            .grid-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            gap: 10px;
+            margin-top: 15px;
+            }
+            .grid-item{
+            padding: 12px;
+            background-color: wheat;
+            text-align: center;
+            border-radius: 5px;
+            }
+            .box p{
+                margin:5px;
+                font-size:16px;
+            }
+            h2 {
+            color: navy;
+            border-bottom: 2px solid lightskyblue;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        h1{
+            text-align:center;
+            padding:20px;
+            color: navy;
+        }
+        .header{
+            background-color: lightskyblue;
+            font-weight: bold;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Academic Profile</h1>
+        <div class="container">
+            <div class="box">
+                <h2>Personal Information</h2>
+                <p><b>Name:</b>P. Sudha Gayathri</p>
+                <p><b>Date of Birth:</b>04-01-2007</p>
+                <p><b>Gender:</b>Female</p>
+                <p><b>Email:</b>gayatripuvvada@gmail.com</p>
+            </div>
+            <h2>School Education</h2>
+            <div class="grid-container">
+        <div class="grid-item header">Level</div>
+        <div class="grid-item header">Institution</div>
+        <div class="grid-item header">Board</div>
+        <div class="grid-item header">Year</div>
+        <div class="grid-item header">Percentage</div>
+
+        <div class="grid-item">10th Grade</div>
+        <div class="grid-item">Laurus</div>
+        <div class="grid-item">CBSE Board</div>
+        <div class="grid-item">2023</div>
+        <div class="grid-item">90%</div>
+
+        <div class="grid-item">12th Grade</div>
+        <div class="grid-item">Kennedy</div>
+        <div class="grid-item">CBSE Board</div>
+        <div class="grid-item">2025</div>
+        <div class="grid-item">86%</div>
+            </div>
+
+        <h2>College Education</h2>
+
+    <div class="grid-container">
+        <div class="grid-item header">Degree</div>
+        <div class="grid-item header">Institution</div>
+        <div class="grid-item header">Specialization</div>
+        <div class="grid-item header">Year</div>
+        <div class="grid-item header">CGPA</div>
+
+        <div class="grid-item">B.Tech</div>
+        <div class="grid-item">Koneru Lakshmaiah University</div>
+        <div class="grid-item">Computer Science Engineering</div>
+        <div class="grid-item">2025 - 2029</div>
+        <div class="grid-item">9.52</div>
+    </div>
+    </div>
+    </body>
+</html>
